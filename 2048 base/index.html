@@ -1,0 +1,78 @@
+<!DOCTYPE html><html>
+<head>
+  <meta charset="utf-8">
+  <title>2048 Programacion Avanzada</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">2048 Programacion Avanzada</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+    <div class="acerca del juego">
+      <p class="game-intro">Una los numeros y forme la ficha <strong>2048</strong></p>
+      <a class="restart-button">Nuevo juego</a>
+    </div>
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Sigue jugando</a>
+          <a class="retry-button">Intentalo de nuevo </a>
+        </div>
+      </div>
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+    <div class="tile-container"></div> 
+    </div>
+
+    <p>
+      <strong>¿Como jugar?:</strong> Use las flechas para mover las fichas, cuando dos fichas del mismo numero se tocan estas forman una sola ficha.
+    </p>
+    <hr>
+    <p>
+    Realizado por Carlos Andres Felipe Beltran Triana, David Alejandro Aparicio y Jairo Andres Romero Triana
+    </p>
+  </div>
+
+
+
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+</body>
+</html>
